@@ -11,8 +11,7 @@
 </head>
 
 <body>
-    content
-    <div class="text-3xl">This is a big text</div>
+    {{ $slot }}
 </body>
 
 </html>
