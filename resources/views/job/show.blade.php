@@ -1,3 +1,4 @@
 <x-layout>
-    <x-job-card :$job></x-job-card>
+    <x-breadcrumps :links="['Jobs' => route('jobs.index'), $job->title => '#']" class="mb-4 container" />
+    <x-job-card :$job />
 </x-layout>
