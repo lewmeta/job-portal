@@ -14,11 +14,10 @@
                 <div>{{ $job->location }}</div>
             </div>
             <div class="flex items-center space-x-1 text-xs">
-                <x-tag>{{ Str::ucfirst($job->experience) }}</x-tag>
+                <x-tag>{{ Str::ucfirst($job->experience )}}</x-tag>
                 <x-tag>{{ $job->category }}</x-tag>
             </div>
         </div>
     </div>
-    <p class="text-sm text-slate-500 mb-4">{!! nl2br(e($job->description)) !!}</p>
     {{ $slot }}
 </x-card>
