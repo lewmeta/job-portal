@@ -8,15 +8,15 @@
                     <div class="mb-1 font-semibold text-sm">
                         Search
                     </div>
-                    <x-text-input name="search" value="" placeholder="Search for any text" />
+                    <x-text-input name="search" value="{{request('search')}}" placeholder="Search for any text" />
                 </div>
                 <div>
                     <div class="mb-1 font-semibold text-sm">
                         Salary
                     </div>
                     <div class="flex items-center space-x-2">
-                        <x-text-input name="min_salary" value="" placeholder="Min " />
-                        <x-text-input name="max_salary" value="" placeholder="Max" />
+                        <x-text-input name="min_salary" value="{{request('min_salary')}}" placeholder="Min " />
+                        <x-text-input name="max_salary" value="{{request('max_salary')}}" placeholder="Max" />
                     </div>
                 </div>
                 <div>3</div>
