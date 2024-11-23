@@ -9,8 +9,8 @@
             </div>
         </div>
         <div class="flex items-center justify-between">
-            <div class="flex space-x-3">
-                <div>Company name</div>
+            <div class="flex space-x-3 text-sm">
+                <div>{{ $job->employer->company_name}}</div>
                 <div>{{ $job->location }}</div>
             </div>
             <div class="flex items-center space-x-1 text-xs">
