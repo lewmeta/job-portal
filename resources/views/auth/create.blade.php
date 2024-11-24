@@ -10,7 +10,7 @@
             </div>
             <div class="mb-8">
                 <label for="password" class="mb-2 block text-slate-800">Password</label>
-                <x-text-input name="email" placeholder="Your password" type="password" />
+                <x-text-input name="password" placeholder="Your password" type="password" />
             </div>
 
             <div class="flex items-center justify-between text-sm font-medium">
