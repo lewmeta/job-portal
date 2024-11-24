@@ -32,8 +32,13 @@ class AuthController extends Controller
     }
 
 
-    public function destroy(string $id)
+    public function destroy()
     {
-        //
+        Auth::logout();
+
+        request()->session()->invalidate();
+        request()->session()->regenerateToken(); // disable form submission once the user is logged out.
+
+        return redirect('/');
     }
 }
