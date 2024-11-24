@@ -43,9 +43,9 @@ class JobController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Job $job)
+    public function show(Job $job) //Route model binding;
     {
-        return view('job.show', ['job' => $job->load('employer')]);
+        return view('job.show', ['job' => $job->load('employer.jobs')]);
     }
 
     /**

@@ -1,4 +1,4 @@
-<x-card class="mb-2">
+<x-card class="mb-2 px-5">
     <div>
         <div class="mb-4 flex justify-between">
             <h2 class="text-lg font-medium">
