@@ -10,7 +10,7 @@
 
 </head>
 
-<body class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 w-full pt-10 max-w-2xl mx-auto">
+<body class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 w-full md:p-0 px-5 pt-10 max-w-2xl mx-auto">
     {{ $slot }}
 </body>
 
