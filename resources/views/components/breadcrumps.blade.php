@@ -1,5 +1,5 @@
 <nav {{ $attributes->class([''])}}>
-    <ul class="flex space-x-4 text-white/90 text-sm">
+    <ul class="flex space-x-4 text-sm text-white/90">
         <li>
             <a href="/">Home</a>
         </li>
